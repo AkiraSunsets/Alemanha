@@ -1,0 +1,128 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /*alinhamento texto*/
+  color: #fff; /* Cor do texto */
+}
+
+nav {
+  background: red; 
+  padding: 1px; /* largura da nav */
+  border-radius: 0px; /*arredonda */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); 
+  margin-bottom: 2rem;
+  display: flex; /* Flexbox para centralizar */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  width: 100%; /* Largura da tela toda */
+}
+
+ul {
+  display: flex; /* Flexbox para os itens da lista */
+  list-style: none;
+  gap: 2rem; /* Espaçamento entre os itens */
+}
+
+li a {
+  text-decoration: none;
+  color: #fff; /* Cor do texto em branco */
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+li a:hover {
+  background: #ff69b4; /* Rosa para o hover */
+  color: white;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(255, 105, 180, 0.6);
+}
+
+#titulo{
+color:#FFCC00;
+}
+
+h1 {
+  color: #FFCC00; /* Dourado */
+}
+
+h4 {
+  color: #FFCC00; /* Dourado */
+}
+
+#pagina_form{
+background-color:#000000;
+}
+
+#pagina_cadastro{
+background-color:#000000;
+}
+
+#pagina_principal{
+background-color:#000000;
+}
+
+item{
+color: white;
+}
+
+table , th, td{
+border: 1px solid black;
+border-collapse:collapse;
+}
+
+#texto_grande{
+color:white;
+font-size:30px;
+width:300px;
+}
+
+#container{
+background-color:pink;
+display: flex;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around; /* Espaça as imagens igualmente */
+  gap: 20px; /* Espaço entre os itens */
+}
+
+.item {
+  text-align: center; /* Alinha o título no centro abaixo da imagem */
+}
+
+img {
+  width: 100%; /* Ajuste de tamanho para a imagem */
+  max-width: 100px; /* Limita a largura da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+h5 {
+  margin-top: 0px; /* Dá um pequeno espaço entre a imagem e o título */
+  font-size: 1.2rem;
+  color: #fff; /* Cor do título */
+}
+
+footer {
+  background-color: red; /* Cor de fundo escura */
+  color: white; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 1px 0; /* Espaçamento interno */
+  border-top: 3px solid black; /* Borda preta em cima */
+}
